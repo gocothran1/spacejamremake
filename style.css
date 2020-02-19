@@ -98,6 +98,7 @@ strong {
 
 .banner {
   background-color: black;
+  background-image: linear-gradient(#28154f, black);
   padding: 100px 0;
   margin-top: 77px;
   text-align: center;
