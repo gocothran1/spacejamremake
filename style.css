@@ -97,6 +97,9 @@ p {
   display: flex;
   background-color:#176097;
 }
+img {
+object-fit: cover;
+}
 .castcrew {
   padding: 20px;
   margin: 20px 0;
