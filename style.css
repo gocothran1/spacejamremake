@@ -1,21 +1,7 @@
-
-
-html {
-  font-size: 22px;
-  font-family: "Arial", sans-serif;
-}
-
 body {
   background-color: black;
   margin-left: 0px;
   margin-right: 0px;
-}
-
-h1 {
-  color: white;
-  font-size: 28px;
-  font-family: Georgia;
-  text-transform: uppercase;
 }
 
 h2 {
@@ -25,31 +11,19 @@ h2 {
   font-family: Arial;
   word-spacing: 0.05em;
   letter-spacing: 0.02em;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 h3 {
   font-size: 22px;
   font-family: "Arial", sans-serif;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 a {
   text-decoration: none;
 }
 
-p {
-  margin: 16px 0;
-  font-family: Helvetica;
-}
-
-
-#serif, /* Offset linked sections to account for header. */
-#sans,
-#mono {
-  padding-top: 77px;
-  margin-top: -77px;
-}
-
-/* Header */
 
 .header {
   font-family: "Arial", sans-serif;
@@ -61,6 +35,7 @@ p {
   width: 100%;
   font-weight: 800;
   text-align: center;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .header li {
@@ -70,12 +45,8 @@ p {
 .header a {
   display: block;
   color: white;
-  padding: 30px 20px;
+  padding: 20px 10px;
 }
-
-
-
-/* Banner Section */
 
 .banner {
   background-color: black;
@@ -85,10 +56,6 @@ p {
   text-align: center;
 }
 
-
-
-/* Editorial Sections */
-
 .synopsis {
   padding: 20px;
   margin: 20px 0;
@@ -96,15 +63,32 @@ p {
   color: white;
   display: flex;
   background-color:#176097;
+  background-image: linear-gradient(#176097, black);
+  
 }
+
 img {
 object-fit: cover;
 }
+
 .castcrew {
   padding: 20px;
   margin: 20px 0;
   text-align: left;
   color: white;
   display: flex;
-  background-color:#971717;
+  background-color:#e80101b4;
+  background-image: linear-gradient(#e80101b4, black);
+}
+
+.textsynopsis {
+  font-size: 22px;
+  font-family: "Arial", sans-serif;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.textcastcrew {
+  font-size: 22px;
+  font-family: "Arial", sans-serif;
+  text-shadow: 2px 2px 4px #000000;
 }
