@@ -94,14 +94,27 @@ p {
   margin: 20px 0;
   text-align: left;
   color: white;
+  text-shadow: 2px 2px 4px #000000;
   display: flex;
   background-color:#176097;
 }
+
+
 .castcrew {
   padding: 20px;
   margin: 20px 0;
   text-align: left;
   color: white;
+  text-shadow: 2px 2px 4px #000000;
   display: flex;
-  background-color:#971717;
+  /* changed background color to match red on movie posters */
+  background-color: #e80201;
+}
+
+.castcrewlists {
+  width: 30%;
+}
+
+.castcrewlists img {
+
 }
