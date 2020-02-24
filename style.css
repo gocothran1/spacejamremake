@@ -93,6 +93,16 @@ object-fit: cover;
   background-image: linear-gradient(#65880e, black);
 }
 
+.links {
+  padding: 20px;
+  margin: 20px 0;
+  text-align: left;
+  color: white;
+  display: flex;
+  background-color:#610e88;
+  background-image: linear-gradient(#610e88, black);
+}
+
 .textsynopsis {
   font-size: 22px;
   font-family: "Arial", sans-serif;
@@ -106,6 +116,12 @@ object-fit: cover;
 }
 
 .textmedia {
+  font-size: 22px;
+  font-family: "Arial", sans-serif;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.textlinks{
   font-size: 22px;
   font-family: "Arial", sans-serif;
   text-shadow: 2px 2px 4px #000000;
